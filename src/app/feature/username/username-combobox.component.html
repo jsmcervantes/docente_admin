@@ -1,0 +1,9 @@
+<select #selectUsername (change)="onSelect(selectUsername.value)" class="select select-primary"  id="" >
+  <option value=0 selected disabled> Seleccione </option>
+  <option *ngFor="let username of usernames"
+  [value]="username.usernameId"
+  [selected]="username.usernameId === usernameId"
+  >
+    {{username.name}}
+  </option>
+</select>

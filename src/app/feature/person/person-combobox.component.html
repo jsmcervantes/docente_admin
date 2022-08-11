@@ -1,0 +1,7 @@
+<select #selectPerson (change)="onSelect(selectPerson.value)" class ="select select-secondary"  id="" >
+  <option value="0" selected disabled> Seleccione </option>
+  <option *ngFor="let person of persons"
+  [value]="person.id" [selected]="person.id === personId">
+    {{person.name}}
+  </option>
+</select>

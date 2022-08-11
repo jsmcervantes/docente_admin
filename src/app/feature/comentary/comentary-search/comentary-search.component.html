@@ -1,0 +1,12 @@
+<div class="dropdown dropdown-hover">
+  <input #inputSearchComentary class="input input-secondary input-sm" type="text" name="" id=""
+placeholder="agregar"
+(input)="onInput(inputSearchComentary.value)"
+>
+  <ul class="menu menu-compact dropdown-content bg-white">
+    <li *ngFor="let item of comentaries">
+      <a>{{item.name}}</a>
+      <!-- <a (click)="onSelect(item)">{{item.name}}</a> -->
+    </li>
+  </ul>
+</div>

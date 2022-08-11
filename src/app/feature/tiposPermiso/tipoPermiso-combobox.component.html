@@ -1,0 +1,9 @@
+<select #selectTipoPermiso (change)="onSelect(selectTipoPermiso.value)" class="select select-primary" name="" id="">
+  <option value=0 selected disabled>Seleccione</option>
+  <option *ngFor="let tipoPermiso of tiposPermisos"
+  [value]="tipoPermiso.tiposPermisoId"
+  [selected]="tipoPermiso.tiposPermisoId === tipoPermisoId"
+  >
+      {{tipoPermiso.nombre}}
+  </option>
+</select>
