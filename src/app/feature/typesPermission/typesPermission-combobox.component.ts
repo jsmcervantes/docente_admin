@@ -1,10 +1,10 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { TiposPermiso } from './tipoPermiso';
-import { TiposPermisoService } from './tipoPermisosService';
+import { TiposPermiso } from './typesPermission';
+import { TiposPermisoService } from './typesPermissionService';
 
 @Component({
   selector: 'app-tipo-permiso-combobox',
-  templateUrl: './tipoPermiso-combobox.component.html'
+  templateUrl: './typesPermission-combobox.component.html'
 })
 export class TipoPermisoComboboxComponent implements OnInit {
 

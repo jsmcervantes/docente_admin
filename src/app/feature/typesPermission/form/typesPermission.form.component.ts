@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Permission } from '../../permission/permission';
 import { PermissionService } from '../../permission/permission.service';
-import { TiposPermiso } from '../tipoPermiso';
-import { TiposPermisoService } from '../tipoPermisosService';
+import { TiposPermiso } from '../typesPermission';
+import { TiposPermisoService } from '../typesPermissionService';
 
 @Component({
   selector: 'app-tiposPermiso-form',
-  templateUrl: './tiposPermiso.form.component.html',
+  templateUrl: './typesPermission.form.component.html',
 })
 export class TiposPermisoFormComponent implements OnInit {
   constructor(
@@ -56,7 +56,7 @@ export class TiposPermisoFormComponent implements OnInit {
       this.currentEntity = response;
       this.currentEntity.permissions.forEach((permis) => {
         this.permissionService
-          .findById(permis.typePermissionId)
+          .findById(permis.permissionId)
           .subscribe((item) => (permis.description = item.description));
       });
     });
@@ -80,10 +80,10 @@ export class TiposPermisoFormComponent implements OnInit {
   }
 
   
-  removePermission(typePermissionId:number):void{
+  removePermission(permissionId:number):void{
     this.currentEntity.permissions =
     this.currentEntity.permissions.filter(
-      (item) => item.typePermissionId != typePermissionId
+      (item) => item.permissionId != permissionId
     );
   }
 

@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-registro-toolbar',
-  templateUrl: './registro-toolbar.component.html',
+  templateUrl: './registry-toolbar.component.html',
 })
 export class RegistroToolbarComponent implements OnInit {
 

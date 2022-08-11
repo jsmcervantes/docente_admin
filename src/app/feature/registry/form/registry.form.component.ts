@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Comentary } from '../../comentary/comentary';
 import { ComentaryService } from '../../comentary/comentary.service';
-import { Registro } from '../registro';
-import { RegistroService } from '../registro.service';
+import { Registro } from '../registry';
+import { RegistroService } from '../registry.service';
 
 @Component({
   selector: 'app-registro-form',
-  templateUrl: './registro.form.component.html'
+  templateUrl: './registry.form.component.html'
 })
 export class RegistroFormComponent implements OnInit {
 

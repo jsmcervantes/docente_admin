@@ -22,7 +22,7 @@ export class PermissionFormComponent implements OnInit {
 
 currentEntity: Permission =
   {
-    typePermissionId: 0,
+    permissionId: 0,
     namePermission:0,
     description:"",
     dateSince: new Date(),
@@ -49,7 +49,7 @@ currentEntity: Permission =
       () => {
         this.currentEntity =
         {
-          typePermissionId: 0,
+          permissionId: 0,
           namePermission:0,
           description:"",
           dateSince: new Date(),
@@ -79,7 +79,7 @@ currentEntity: Permission =
   }
 
   deleteById():void{
-    this.permissionService.deleteById(this.currentEntity.typePermissionId).subscribe(
+    this.permissionService.deleteById(this.currentEntity.permissionId).subscribe(
       () => {
         console.log("Borrado");
       }

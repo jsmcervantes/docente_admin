@@ -1,7 +1,7 @@
 import { Comentary } from "../comentary/comentary";
 
 export interface Permission {
-  typePermissionId : number,
+  permissionId : number,
   namePermission : number,
   description : string,
   dateSince : Date,

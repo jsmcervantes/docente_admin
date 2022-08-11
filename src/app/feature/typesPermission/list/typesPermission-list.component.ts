@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { TiposPermiso } from '../tipoPermiso';
-import { TiposPermisoService } from '../tipoPermisosService';
+import { TiposPermiso } from '../typesPermission';
+import { TiposPermisoService } from '../typesPermissionService';
 
 @Component({
   selector: 'app-tiposPermiso-list',
-  templateUrl: './tiposPermiso-list.component.html',
+  templateUrl: './typesPermission-list.component.html',
 })
 export class TiposPermisoListComponent implements OnInit {
 

@@ -66,7 +66,7 @@ export class UsernameFormComponent implements OnInit {
         this.currentEntity = response;
         this.currentEntity.permissions.forEach(
           (permission) => {
-            this.permissionService.findById (permission.typePermissionId).subscribe(
+            this.permissionService.findById (permission.permissionId).subscribe(
               (item) => permission.description = item.description
             )
           }
@@ -89,7 +89,7 @@ export class UsernameFormComponent implements OnInit {
 
     this.currentEntity.permissions =
     this.currentEntity.permissions.filter(
-      (item) => item.typePermissionId != typePermissionId
+      (item) => item.permissionId != typePermissionId
     );
   }
 

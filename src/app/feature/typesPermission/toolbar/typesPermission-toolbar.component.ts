@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-tiposPermiso-toolbar',
-  templateUrl: './tiposPermiso-toolbar.component.html',
+  templateUrl: './typesPermission-toolbar.component.html',
 })
 export class TiposPermisoToolbarComponent implements OnInit {
 

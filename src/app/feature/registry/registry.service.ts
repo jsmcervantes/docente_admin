@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Registro } from './registro';
+import { Registro } from './registry';
 import { Observable } from 'rxjs';
 import { HttpClient , HttpHeaders} from '@angular/common/http'
 

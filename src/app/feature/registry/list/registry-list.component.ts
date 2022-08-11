@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Registro } from '../registro';
-import { RegistroService } from '../registro.service';
+import { Registro } from '../registry';
+import { RegistroService } from '../registry.service';
 
 @Component({
   selector: 'app-registro-list',
-  templateUrl: './registro-list.component.html',
+  templateUrl: './registry-list.component.html',
 })
 export class RegistroListComponent implements OnInit {
 

@@ -4,10 +4,10 @@ import { PermissionFormComponent } from '../feature/permission/form/permission.f
 import { PermissionListComponent } from '../feature/permission/list/permission-list.component';
 import { PersonFormComponent } from '../feature/person/form/person.form.component';
 import { PersonListComponent } from '../feature/person/list/person-list.component';
-import { RegistroFormComponent } from '../feature/registro/form/registro.form.component';
-import { RegistroListComponent } from '../feature/registro/list/registro-list.component';
-import { TiposPermisoFormComponent } from '../feature/tiposPermiso/form/tiposPermiso.form.component';
-import { TiposPermisoListComponent } from '../feature/tiposPermiso/list/tiposPermiso-list.component';
+import { RegistroFormComponent } from '../feature/registry/form/registry.form.component';
+import { RegistroListComponent } from '../feature/registry/list/registry-list.component';
+import { TiposPermisoFormComponent } from '../feature/typesPermission/form/typesPermission.form.component';
+import { TiposPermisoListComponent } from '../feature/typesPermission/list/typesPermission-list.component';
 import { UsernameFormComponent } from '../feature/username/form/username.form.component';
 import { UsernameListComponent } from '../feature/username/list/username-list.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
