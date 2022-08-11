@@ -1,0 +1,9 @@
+<select #selectRoles (change)="onSelect(selectRoles.value)" class="select select-primary" name="" id ="">
+    <option value="0" selected disable>Seleccione</option>
+    <option *ngFor="let roles of roles"
+    [value]="roles.rolId" 
+    [selected]="roles.rolId === rolesId"
+    >
+        {{roles.name}}
+    </option>
+</select>

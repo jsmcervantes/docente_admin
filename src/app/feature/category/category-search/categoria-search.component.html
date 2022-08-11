@@ -1,0 +1,11 @@
+<div class="dropdown dropdown-hover">
+    <input #inputSearchCategoria class="input input-primary input-sm" name="" id="" 
+    placeholder="Agregar"
+    (input)="onInput(inputSearchCategoria.value)" 
+    >
+    <ul class="menu menu-compact dropdown-content bg-white">
+        <li *ngFor="let item of categorias">
+            <a (click)="onSelect(item)">{{item.nombre}}</a>
+        </li>
+    </ul>
+</div>

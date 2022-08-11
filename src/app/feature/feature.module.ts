@@ -27,6 +27,27 @@ import { FormsModule } from '@angular/forms';
 import { ComentarySearchComponent } from './comentary/comentary-search/comentary-search.component';
 import { PermissionSearchComponent } from './permission/permission-search/permission-search.component';
 
+//asistencia admin 
+
+import { DiaFestivoFormComponent } from './holiday/form/holiday.form.component';
+import { DiaFestivoListComponent } from './holiday/list/holiday-list.component';
+import { DiaFestivoToolbarComponent } from './holiday/toolbar/holiday-toolbar.component';
+import { CategoriaFormComponent } from './category/form/categoria.form.component';
+import { CategoriaListComponent } from './category/list/categoria-list.component';
+import { CategoriaToolbarComponent } from './category/toolbar/categoria-toolbar.component';
+import { ActividadFormComponent } from './activity/form/actividad.form.component';
+import { ActividadListComponent } from './activity/list/actividad-list.component';
+import { ActividadToolbarComponent } from './activity/toolbar/actividad-toolbar.component';
+import { RolesComponent } from './role/role-form/roles.component';
+import { RolesListComponent } from './role/role-list/roles-list.component';
+import { ToolbarRolesComponent } from './role/toolbar-role/toolbar-roles.component';
+import { CategoriaComboboxComponent } from './category/category-combobox/categoria-combobox.component';
+import { DiaFestivoSearchComponent } from './holiday/holidays-search/holiday-search.component';
+import { RolComboboxComponent } from './role/rol-combobox.component';
+import { ActividadSearchComponent } from './activity/activivity-search/actividad-search.component';
+import { CategoriaSearchComponent } from './category/category-search/categoria-search.component';
+import { ComboboxRolesComponent } from './holiday/combobox_role/combobox-roles.component';
+
 TipoPermisoComboboxComponent
 
 
@@ -54,7 +75,27 @@ TipoPermisoComboboxComponent
     PermissionSearchComponent,
     TiposPermisoListComponent,
     TiposPermisoToolbarComponent,
-    TipoPermisoComboboxComponent
+    TipoPermisoComboboxComponent,
+    //admin
+    DiaFestivoFormComponent,
+    DiaFestivoListComponent,
+    DiaFestivoToolbarComponent,
+    CategoriaFormComponent,
+    CategoriaListComponent,
+    CategoriaToolbarComponent,
+    RolesComponent,
+    RolesListComponent,
+    ToolbarRolesComponent,
+    ActividadFormComponent,
+    ActividadListComponent,
+    ActividadToolbarComponent,    
+    CategoriaComboboxComponent,
+    DiaFestivoSearchComponent,
+    RolComboboxComponent,
+    ActividadSearchComponent,
+    CategoriaSearchComponent,
+    ComboboxRolesComponent,
+    PersonFormComponent,
 
 
   ],

@@ -1,0 +1,16 @@
+<select
+  #selectCategoria
+  (change)="onSelect(selectCategoria.value)"
+  class="select select-primary"
+  name=""
+  id=""
+>
+  <option value="0" selected disabled>Categorias</option>
+  <option
+    *ngFor="let categoria of categorias"
+    [value]="categoria.categoriaActividadId"
+    [selected]="categoria.categoriaActividadId === categoriaActividadId"
+  >
+    {{ categoria.nombre }}
+  </option>
+</select>

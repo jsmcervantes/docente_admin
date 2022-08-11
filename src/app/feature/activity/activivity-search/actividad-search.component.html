@@ -1,0 +1,11 @@
+<div class="dropdown dropdown-hover">
+    <input #inputSearchActividad class="input input-primary input-sm" name="" id="" 
+    placeholder="Agregar"
+    (input)="onInput(inputSearchActividad.value)" 
+    >
+    <ul class="menu menu-compact dropdown-content bg-white">
+        <li *ngFor="let item of actividades">
+            <a (click)="onSelect(item)">{{item.nombre}}</a>
+        </li>
+    </ul>
+</div>
