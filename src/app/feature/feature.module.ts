@@ -20,6 +20,7 @@ import { PersonComboboxComponent } from './person/person-combobox.component';
 import { PersonListComponent } from './person/list/person-list.component';
 import { PersonFormComponent } from './person/form/person.form.component';
 import { PersonToolbarComponent } from './person/toolbar/person-toolbar.component';
+import { PersonSearchComponent } from './person/person-search/person-search.component';
 import { TiposPermisoFormComponent } from './typesPermission/form/typesPermission.form.component';
 import { TiposPermisoListComponent } from './typesPermission/list/typesPermission-list.component';
 import { TiposPermisoToolbarComponent } from './typesPermission/toolbar/typesPermission-toolbar.component';
@@ -27,7 +28,7 @@ import { FormsModule } from '@angular/forms';
 import { ComentarySearchComponent } from './comentary/comentary-search/comentary-search.component';
 import { PermissionSearchComponent } from './permission/permission-search/permission-search.component';
 
-//asistencia admin 
+//asistencia admin
 
 import { DiaFestivoFormComponent } from './holiday/form/holiday.form.component';
 import { DiaFestivoListComponent } from './holiday/list/holiday-list.component';
@@ -70,6 +71,7 @@ TipoPermisoComboboxComponent
     PersonFormComponent,
     PersonListComponent,
     PersonToolbarComponent,
+    PersonSearchComponent,
     TiposPermisoFormComponent,
     ComentarySearchComponent,
     PermissionSearchComponent,
@@ -88,7 +90,7 @@ TipoPermisoComboboxComponent
     ToolbarRolesComponent,
     ActividadFormComponent,
     ActividadListComponent,
-    ActividadToolbarComponent,    
+    ActividadToolbarComponent,
     CategoriaComboboxComponent,
     DiaFestivoSearchComponent,
     RolComboboxComponent,
